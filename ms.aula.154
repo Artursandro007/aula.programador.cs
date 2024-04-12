@@ -1,0 +1,13 @@
+#conversor de notas
+print("bom dia tudo bem ")
+nota = float(input('digite qual foi a sua nota '))
+if nota >= 9 :
+        print("voce e um exelente aluno")
+elif nota >= 7.5 : 
+        print("voce esta muito bem")
+elif nota >= 6 :
+        print("vc esta melhorando parabens")
+elif nota >= 4 :
+        print("voce esta indo muito mal melhore")
+else : 
+        print(" voce vai reprovar de ano")
